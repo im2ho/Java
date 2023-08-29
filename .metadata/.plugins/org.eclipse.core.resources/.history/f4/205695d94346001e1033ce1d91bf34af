@@ -33,7 +33,7 @@ public class Scannersample {
 		
 		System.out.print("주소를 입력하세요 : ");
 		String address = sc.next();
-		// nextline: 엔터치기 전까지 출격
+		
 		System.out.println("내 취미는 " + favor + "이고, 좋아하는 음식은 " + food +",\n사는 곳은 " + address + "입니다.");
 	}
  
