@@ -1,0 +1,49 @@
+package com.kh.variable;
+
+public class VarialbeConversion {
+	public static void main(String[] args) {
+		/*
+		//1. 자동형변환(암시적형변환, 묵시적형변환)
+		
+		int intNum = 100;
+		System.out.println(intNum); //숫자 100을 의미
+		
+		long longNum = intNum; //int를 long으로 자동 형변환
+		System.out.println(longNum);
+		
+		float floatNum = 3.14f;
+		double doubleNum = floatNum; //float을 double로 자동 형변환
+		
+		System.out.println();
+		*/
+		
+		// int > long 변경하는 형변환 2가지 만들고 출력하기
+		
+		int num1 = 100;
+		System.out.print("num1 : ");
+		System.out.println(num1);
+		
+		long num2 = num1;
+		System.out.println(num2);
+		
+		int intNum = -100;
+		System.out.print("intNum : ");
+		System.out.println(intNum);
+		
+		long longNum = intNum;
+		System.out.println(longNum);
+		
+		// short > int 변경하는 형변환 1가지 만들고 출력하기
+		
+		short num3 = 50;
+		int num4 = num3;
+		System.out.println(num4);
+		
+		// float > double 변경하는 형변환 1가지 만들고 출력하기
+		
+		float num5 = 1.96f;
+		double num6 = num5;
+		System.out.println(num6);
+		
+	}
+}

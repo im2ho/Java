@@ -1,0 +1,17 @@
+package com.kh.scannersample;
+
+import java.util.*;
+//import: 어떠한 라이브러리를 불러오기 위해서 패키지를 가져오는 행위
+//라이브러리: 일종의 도구 모음
+
+public class Scanner {
+	public static void method(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("나이를 입력 해주세요: ");
+		int age = sc.nextInt();
+		
+		System.out.println("제 나이는 " + age + "세 입니다.");
+	}
+
+}

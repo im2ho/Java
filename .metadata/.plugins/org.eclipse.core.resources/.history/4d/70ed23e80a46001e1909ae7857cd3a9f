@@ -1,0 +1,12 @@
+package com.kh.variable; //경로: OS(C드라이브)>사용자>user1>Java_Workspace>src>com>kh>variable
+
+public class Variable {
+	public static void main(String[] args) {
+		//1. 변수의 이름은 영문자, 숫자, _, $ 로 구성 가능
+		int a; //int, String 등등: 변수 저장할 공간 내놔!!!!(ex 1byte만큼, 8byte만큼...)
+		a = 10;
+		
+		//2. 변수의 이름은 숫자로 시작할 수 없다
+		//3. 변수 이름 사이에는 공백 불가
+	}
+}

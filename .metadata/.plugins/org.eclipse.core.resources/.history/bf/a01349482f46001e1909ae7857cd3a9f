@@ -1,0 +1,8 @@
+package com.kh.variable;
+
+public class VarialbeConversion {
+	//1. 자동형변환(암시적형변환, 묵시적형변환)
+	public static void main(String[] args) {
+		
+	}
+}
