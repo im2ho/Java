@@ -17,19 +17,20 @@ public class For02 {
 		int num2 = sc.nextInt();
 		
 		int result = 0; //최초값을 0으로 줍니다.
-		for (int i =0 ; i <num2; i++) {
+		for (int i =1 ; i <=num2; i++) {
+			
 			
 			//result += num1;
 			result = num1 + result;
+			System.out.println(num1 + " * " + i + " = " + result);
 	
 		}
-		System.out.println(num1 + " * " + num2 + " = " + result);
+		
 		//계산된 결과를 출력 입력받은 두 숫자와 결과 값을 문자열로 결합해서 출력
 		
-		
+		// 이중 for 문
 		
 		
 	}
 	
-
 }
