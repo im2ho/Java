@@ -52,6 +52,7 @@ public class While02 {
 		
 		boolean	isAge = false;
 		
+		//while(조건)
 		while(!isAge) {
 			System.out.print("\n나이를 선택해 주세요 :");
 			int age = sc.nextInt();
@@ -59,8 +60,8 @@ public class While02 {
 			switch(age) {
 				case 19: case 20:
 					System.out.println(age + "세는 성인요금입니다.");
-					isAge = true;
-					break;
+					isAge = true; //isAge 조건이 !를 만나 false가 되어 while문 종료
+					break; //case와 switch를 (제어)종료시키는 장치
 					
 				case 14: case 15: case 16: case 17: case 18:
 					System.out.println(age + "세는 청소년 요금입니다.");
