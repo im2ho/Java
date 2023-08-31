@@ -30,4 +30,15 @@ Git: 데스크탑에 존재
    
  **
  
+ 한번 올리고 나면
+ 1. 해당 폴더 들어가서 경로 다 지우고 cmd 입력 후 엔터
+ 2. git add .
+ 3. (선택) git status
+ 4. git commit -m ""
+ 5. git push
+ 
+ 끝!
+
+ **
+ 
  git pull
