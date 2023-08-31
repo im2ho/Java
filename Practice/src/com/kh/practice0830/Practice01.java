@@ -60,7 +60,8 @@ public class Practice01 {
 		} else {
 			System.out.println("잘못된 선택입니다.. 다시 고르세욧!!!");
 		}
-				
+		
+		
 		}
 	}
 
