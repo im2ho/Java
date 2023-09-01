@@ -47,15 +47,9 @@ public class Array02 {
 		// "사과" "귤" "포도" "복숭아" "참외"로 초기화 한 후
 		//배열 인덱스를 활용해서 귤을 출력하기
 		
-		String[] String = new String[5]; //type이 string
+		String[] fruits = {"사과", "귤", "포도", "복숭아", "참외"}; //type이 string
 		
-		String[0] = "사과";
-		String[1] = "귤";
-		String[2] = "포도";
-		String[3] = "복숭아";
-		String[4] = "참외";
-		
-		System.out.print(String[1]);
+		System.out.print(fruits[1]);
 		
 	}
 
