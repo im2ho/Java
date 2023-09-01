@@ -10,16 +10,19 @@ public class Practice03 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+			
 		System.out.print("자연수 한 개를 입력하세요 : ");
 		int num = sc.nextInt();
 		
 		if (num < 1) {
 			System.out.print("1 이상의 숫자를 입력해주세요");
+			
 		} else { // 1이상인 숫자들(자연수)
-			for( ;  ; ) { //for문 내부를 완성하세요
-				System.out.print(" ");
+			for(int i=num ; i>=1 ;i-- ) { //거꾸로 숫자가 출력되게 하기
+				System.out.print(i + " ");
 			}
 		}
+		
 		
 		
 		
