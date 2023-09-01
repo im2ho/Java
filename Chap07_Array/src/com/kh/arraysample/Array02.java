@@ -23,20 +23,40 @@ public class Array02 {
 		
 		**/
 		
+		/***
 		//길이가 10인 배열을 선언 1~10까지의 값을 반복문을 이용해서
 		//역순으로 배열 인덱스에 넣은 후 그 값을 출력하기
 		
 		int[] arr = new int[10]; //길이가 10인 배열 arr 선언
 		
 		// 1~10까지의 값을 역순으로 배열에 할당
-		int value = 10;
-		for(int j = 0 ; j <arr.length ; j++) { //arr.length = 10
-			arr[j] = value --; //arr[0]=9, arr[1]=8, .... ,arr[9]=0
+		
+		int value = arr.length; //arr.length = 10
+		
+		for(int j = 0 ; j <arr.length ; j++) {
+			arr[j] = value--; //arr[0]=9, arr[1]=8, .... ,arr[9]=0
+			//value = value -1;
 		}
 		
 		for (int j = 0 ; j < arr.length ; j++) {
 			System.out.println("arr[" + j + "] = " + arr[j] );
 		}
+		***/
+		
+		//3. 길이가 5인 String 배열 선언
+		// "사과" "귤" "포도" "복숭아" "참외"로 초기화 한 후
+		//배열 인덱스를 활용해서 귤을 출력하기
+		
+		String[] String = new String[5]; //type이 string
+		
+		String[0] = "사과";
+		String[1] = "귤";
+		String[2] = "포도";
+		String[3] = "복숭아";
+		String[4] = "참외";
+		
+		System.out.print(String[1]);
+		
 	}
 
 }
