@@ -9,7 +9,7 @@ public class Student {
 	/***** 생성자 (메서드 중 일부) *****/
 	public Student(String name, int age, String grade) {//학생들을 초기화
 		this.name = name;
-		this.age = age;
+		this.age = age; //
 		this.grade = grade;
 	}
 	
@@ -18,8 +18,6 @@ public class Student {
 		System.out.println("학생 이름 : " + name);
 		System.out.println("나이 : " + age);
 		System.out.println("학년 : " + grade);
-		
-		
 	}
 
 }

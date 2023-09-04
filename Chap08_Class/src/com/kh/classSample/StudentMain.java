@@ -28,7 +28,6 @@ public class StudentMain {
 		student3.displayInfo();
 		student4.displayInfo();
 
-
 	}
 
 }
