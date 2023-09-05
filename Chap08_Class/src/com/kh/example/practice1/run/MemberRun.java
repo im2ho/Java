@@ -12,7 +12,7 @@ public class MemberRun {
 		
 		// 1. Member의 객체 생성
 		
-		Member member = new Member(''); //만약에 char값을 넣고싶으면..
+		Member member = new Member('F'); //만약에 char값을 넣고싶으면..
 		
 		// 2. changeName()을 이용한 값 변경
 		

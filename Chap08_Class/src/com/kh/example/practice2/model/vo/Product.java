@@ -2,9 +2,9 @@ package com.kh.example.practice2.model.vo;
 
 public class Product {
 	//1. 멤버변수 생성
-	String  pname ;
-	int  price ;
-	String brand ;
+	private String  pname ;
+	private int  price ;
+	private String brand ;
 		
 	//2. 생성자 this를 활용해서 만들어야 함
 	//+ Product()
