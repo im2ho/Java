@@ -1,6 +1,6 @@
 package com.kh.gettersetter;
 
-public class GameRun {
+public class PlayerRun {
 
 	public static void main(String[] args) {
 		
@@ -8,7 +8,7 @@ public class GameRun {
 		PlayerCharacter player1 = new PlayerCharacter();
 		
 		player1.setName("한카리아스");
-		player1.setHp(205);
+		player1.setHp(0); //체력이 없습니다
 		player1.setAttackPower(300);
 		
 		player1.displayInfo();
