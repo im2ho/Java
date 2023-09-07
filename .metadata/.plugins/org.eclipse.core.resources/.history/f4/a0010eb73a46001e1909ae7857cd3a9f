@@ -1,8 +1,0 @@
-package com.kh.scanner;
-
-public class Scanner {
-	public static void method(String[] args) {
-		
-	}
-
-}

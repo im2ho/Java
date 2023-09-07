@@ -1,8 +1,0 @@
-package란 어떠한 폴더 위치를 작성하는 공간
-내가 만들고싶은 파일 경로(폴더 위치)를 설정할 수 있음
-
-new > class(아마도.. 작업공간..) > package 수정 가능
-ex) com.kh.variable: 폴더 3개가 자동 생성(com/kh/variable)
-
-**자바의 명명 규칙
-카멜케이스

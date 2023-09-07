@@ -4,8 +4,7 @@ public class Calculator {
 	
 	//계산기를 만들어보자~
 	
-	int num1;
-	int num2;
+	int num1, num2; //객체 변수 아님
 	
 	
 	//1. 더하기
@@ -29,8 +28,13 @@ public class Calculator {
 	//4. 나누기
 	
 	public int divide() {
-		return num1 / num2;
+		if(num2 == 0) {
+			System.out.println("나누는 값이 0이 되면 안됩니다");
+			return 0;
+		} else {
+			return num1 / num2;
+		}
 	}
-	
+	//몫 이외에 나머지도 보고싶음..
 
 }
