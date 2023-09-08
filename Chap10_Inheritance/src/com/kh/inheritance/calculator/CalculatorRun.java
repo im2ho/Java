@@ -8,14 +8,11 @@ public class CalculatorRun extends CalculatorForMod { //extend로 상속받기
 		
 		//입력받은 값으로 어쩌구하는 계산기
 		
-		/*이중상속(상속의 상속..)에 관한 이야기
+		//이중상속(상속의 상속..)에 관한 이야기
 		Scanner sc = new Scanner(System.in);
-		
 		System.out.println("계산할 숫자 두 개를 입력하세요~ \n");
-		
 		System.out.print("첫 번째 숫자: ");
 		int num1 = sc.nextInt();
-		
 		System.out.print("두 번째 숫자: ");
 		int num2 = sc.nextInt();
 		
@@ -26,19 +23,18 @@ public class CalculatorRun extends CalculatorForMod { //extend로 상속받기
 		System.out.println("mul = " + cal.multiply());
 		System.out.println("div = " + cal.divide());
 		System.out.println("mod = " + cal.mod(num1,num2));//왜안될까..
-		*/
+		
+		
+		/**
 		
 		Scanner sc = new Scanner(System.in);
-		
 		System.out.println("계산할 숫자 두 개를 입력하세요~ \n");
-		
 		System.out.print("첫 번째 숫자: ");
 		int num1 = sc.nextInt();
-		
 		System.out.print("두 번째 숫자: ");
 		int num2 = sc.nextInt();
 		
-		Calculator cal = new Calculator();
+		CalculatorForMod cal = new CalculatorForMod();
 		
 		int result1 = cal.add();
 		int result2 = cal.substract();
@@ -52,6 +48,9 @@ public class CalculatorRun extends CalculatorForMod { //extend로 상속받기
 		System.out.println("Div : " + result4);
 		
 		//System.out.println("Mod : " + result5);
+		  
+		 **/
+		 
 
 	}
 

@@ -1,5 +1,7 @@
 package com.kh.inheritance.calculator;
 
+import java.util.Scanner;
+
 public class Calculator {
 	
 	//계산기를 만들어보자~
