@@ -10,7 +10,18 @@
     <fullyQualifiedTypeName name="com.kh.exampleAM.practice2.model.vo.Product"/>
     <fullyQualifiedTypeName name="com.kh.example.practice3.model.vo.Circle"/>
     <fullyQualifiedTypeName name="com.kh.gettersetter.GoodPlayer"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.Model.UserModel"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.controller.UserController"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.View.UserView"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.Model.StudentModel"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.View.StudentView"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.controller.StudentController"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.kh.circle.mo.CircleModel"/>
+    <fullyQualifiedTypeName name="com.kh.circle.vo.CircleView"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.kh.person.mo.PersonModel"/>
+    <fullyQualifiedTypeName name="com.kh.person.vo.PersonView"/>
+    <fullyQualifiedTypeName name="com.kh.person.co.PersonController"/>
 </qualifiedTypeNameHistroy>
