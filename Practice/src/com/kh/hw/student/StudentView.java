@@ -47,11 +47,5 @@ public class StudentView {
 		System.out.print(majorMsg);
 		return sc.next();
 	}
-	
-	//입력한 학생정보......출력하는......
-	public void displayInfo(String name, int age, double height, double weight, int grade, String major) {
-		System.out.println("*****학생정보*****");
-		System.out.println("이름 : " + name + "\n나이 : " + age + "\n키 : " + height + "\n몸무게 : " + weight + "\n학년 : " + grade + "\n전공 : " + major);
-	}
 
 }

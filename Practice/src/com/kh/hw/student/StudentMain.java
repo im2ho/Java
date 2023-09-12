@@ -8,7 +8,6 @@ public class StudentMain {
 		StudentController c = new StudentController(m,v);
 		
 		c.runStudent();
-		v.displayInfo();
-		
+		//다시 하시겠습니까는 어떻게 출력하는가
 	}
 }

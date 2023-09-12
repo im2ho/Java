@@ -40,7 +40,7 @@ public class StudentModel {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public void setHeigth(double height) {
+	public void setHeight(double height) {
 		this.height = height;
 	}
 	public void setWeight(double weight) {

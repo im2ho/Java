@@ -37,6 +37,8 @@ public class StudentController {
 		model.setGrade(grade);
 		model.setMajor(major);
 		
+		System.out.println("이름 : " + name + "/ 나이 : " + age + "/ 키 : " + height + "/ 몸무게 : " + weight + "/ 학년 : " + grade + "/ 전공 : " + major);
+		
 	}
 	
 }
