@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class MakeFolderMain {
+public class MakeFolderMain { //mkdir
 /*
  파일 = 폴더,
  이미지 jpg png, 텍스트 txt, 비디오 avi mp4 mkr 등등...
