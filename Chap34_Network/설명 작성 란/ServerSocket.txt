@@ -6,7 +6,7 @@
 	서버는 클라이언트와 통신할 수 있음
 	
 **메서드
-							 	 	//서버 포트번호
+							 	 	     //서버 포트번호
 ServerSocket socket = new ServerSocket(int 포트번호);
 	지정된 포트 번호로 서버 소켓을 생성
 

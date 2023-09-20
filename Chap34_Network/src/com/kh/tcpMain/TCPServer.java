@@ -9,7 +9,7 @@ public class TCPServer {
 		try {
 			
 			ServerSocket serverSocket = new ServerSocket(8080);
-			System.out.println("서버 대기 중!");
+			System.out.println("서버 대기 중!!");
 			
 			//만약에 클라이언트와 연결하고 싶다면 클라이언트와 연결하는 코드 작성
 			while(true) {

@@ -35,7 +35,7 @@ public class BinaryTree {
 		tree.insert(65);
 		
 		System.out.println("이진 트리의 중위 순회 결과 : ");
-		tree.inOrderT(); //ㅇㅇ
+		tree.inOrderT(); 
 	}
 	
 	/*
@@ -82,9 +82,9 @@ public class BinaryTree {
 	//root.data가 뭔데
 	private void inOrderTR(TreeNode root) { //중위순회를 수행하여 트리의 노드를 출력하는데 사용..
 		if(root != null) { // root 값이 null이 아니라면..
-			inOrderTR(root.right); //왼쪽서브트리 참조 명령
+			inOrderTR(root.right); //왼쪽서브트리 참조 명령 왼쪽으로 갈 수 잇는만큼 가
 			System.out.print(root.data + " "); //루트노트방문 도장~~~!
-			inOrderTR(root.left); //오른쪽서브트리 참조 명령
+			inOrderTR(root.left); //오른쪽서브트리 참조 명령 오른쪽으로 갈 수 잇는만큼 가
 			//System.out.print(root.data + " ");
 		}
 	}
