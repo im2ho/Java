@@ -4,7 +4,7 @@ public class PlayerRun {
 
 	public static void main(String[] args) {
 		
-		// 플레이 생성자 만들기
+		// player1 인스턴스 생성
 		PlayerCharacter player1 = new PlayerCharacter();
 		
 		player1.setName("한카리아스");
@@ -13,17 +13,20 @@ public class PlayerRun {
 		
 		player1.displayInfo();
 		
+		
+		
+		// player2 인스턴스 생성
 		PlayerCharacter player2 = new PlayerCharacter();
+		
 		player2.setName("망나뇽"); //공격받은 캐릭터
 		player2.setHp(225);
 		player2.setAttackPower(280);
-		
 		
 		player2.displayInfo();
 		
 		System.out.println("공격 후");
 		
-		player1.attack(player2);
+		player1.attack(player2); //player2 값이 target으로 들어감
 		//player.attack(player1);
 	}
 
