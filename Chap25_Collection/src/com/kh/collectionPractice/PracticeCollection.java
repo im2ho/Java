@@ -21,7 +21,7 @@ public class PracticeCollection {
 	public void practiceList() {
 		List<String> pracList = new ArrayList<>();
 		//String add 해보고 포문 출력		
-		pracList.add("번치코");
+		pracList.add("브케인");
 		pracList.add("리아코");
 		pracList.add("치코리타");
 		

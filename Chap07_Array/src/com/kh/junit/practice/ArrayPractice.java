@@ -7,20 +7,24 @@ public class ArrayPractice {
 	
 	//배열을..멤버변수로 선언
 	private int[] arr; //int형 변수로 구성된 배열
-	private String[] stringArr; //String형 변수로 구성된 배열..
 	
-	//생성자1 이용해서 멤버변수 초기화
+	//기본 생성자
+	public ArrayPractice() {}
+		
+	/*
+	//생성자2 이용해서 멤버변수 초기화
 	public ArrayPractice(int size) {
 		arr = new int[size];
 		for(int i=0;i<size;i++) {
 			arr[i]=i+1;
 		}
 	}
-
+	*/
 	
-	//생성자2
-	public ArrayPractice() {
-		stringArr = new String[] {};
+	//출력 위한 main 메서드
+	public static void main(String[] args) {
+		ArrayPractice arr = new ArrayPractice(); //기본생성자~
+		arr.practice12();
 	}
 
 
@@ -245,26 +249,31 @@ public class ArrayPractice {
 			System.out.print(arr[i] + " ");
 		}
 	}
+	
 	public int[] practice12() {
 		int[] lotto = new int[6];
 		
 		for(int i = 0; i < lotto.length; i++) {
-			lotto[i] = (int)(Math.random() * 45 + 1);
+			//Math.random() : 0.0 이상 1.0 미만의 난수 발생
+			//Math.random() *45 : 0~44까지 45개 숫자 랜덤 생성
+			lotto[i] = (int)(Math.random() * 45 + 1); //int형으로 형변환
 			
+			//중복값 제거 : 현제 index (i) 와 (0 ~ i-1) 비교하여 
+			//중복된 숫자가 존재하면 i--
 			for(int j = 0; j < i; j++) {
 				if(lotto[i] == lotto[j]) {
-					i--;
-					
+					i--; // i = i -1 ; 중복이 있을경우 i-1 값부터 다시 반복한다
 					break;
 				}
 			}
 		}
-		
+		//오름차순 정렬 
 		Arrays.sort(lotto);
 		
-		for(int i = 0; i < lotto.length; i++) {
-			System.out.print(lotto[i] + " ");
+		for(int k=0;k<lotto.length;k++) {
+			System.out.println(lotto[k]);
 		}
+		
 		return lotto;
 	}
 	

@@ -17,7 +17,7 @@ Setter
 Valid
 	Setter에서 넘어온 값이 무결성인지 검증하는 역할
 	
-**Getter Setter를 사용하면~ 생성사를 따로 만들지 않아도 됨!
+**Getter Setter를 사용하면~ 생성자를 따로 만들지 않아도 됨!
 	
 캡슐화 : 필드를 private으로 선언하여 외부에서 직접 접근하기 못하도록 막아주고, 
         Getter와 Setter를 통해 필드에 접근할 수 있도록 해줌

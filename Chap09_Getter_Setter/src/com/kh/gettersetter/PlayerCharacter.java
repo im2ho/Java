@@ -1,21 +1,17 @@
 package com.kh.gettersetter;
 
 public class PlayerCharacter {
+	
 	//필드값(원본)
 	private String name; 
-	private int hp; //체력
-	private int attackPower; //공격력
-	
-	//캐릭터이름 드래그 선택 > source > generate getter&setter > 전체 체크 후 generate
+	private int hp; 
+	private int attackPower;
 	
 	/**
 	Getter
 		(데이터 '복사본'을 던져주기 때문에 원래 객체의 데이터는 손상시키지 않음 원본데이터는 안전함
 		Run파일의 set에서 검증된 역할을 받아서 전달해줌..
 	**/
-	
-	
-	
 	
 	public String getName() { //1. get으로 이름을 복사
 		return name;
@@ -31,9 +27,7 @@ public class PlayerCharacter {
 	
 	
 	//valid -> 검증할 때 쓰는 이름
-	public void isValidHp() {
-
-	}
+	public void isValidHp() {}
 
 	/** 
 	Setter
@@ -42,7 +36,7 @@ public class PlayerCharacter {
 		
 		set: 원본의 내용...이라고 보면 될듯.. 각각 만들어서 수정을 하든 뭘하든 암튼~ (ppt로 치면 한 페이지씩 떼와서 수정)
 		
-		set: 생성자 (출력값을 띄울 수가 x)
+		set: 생성자 (반환값을 띄울 수가 x)
 	 **/
 	
 	
@@ -71,18 +65,16 @@ public class PlayerCharacter {
 		
 	}
 	
-	
-	
 	//캐릭터 정보 출력
 	public void displayInfo() {
-		//System.out.println("< 캐릭터 정보 >\n닉네임 : " + name);
+		System.out.println("< 캐릭터 정보 >\n닉네임 : " + name);
 		System.out.println("HP : " + hp);
-		//System.out.println("공격력 : " + attackPower + "\n");
+		System.out.println("공격력 : " + attackPower + "\n");
 	}
 	
 	//캐릭터 공격하는 출력 메서드
 	public void attack(PlayerCharacter target) {
-		//System.out.println(name + "의 드래곤다이브!\n" + target.getName() + "은(는) " + attackPower + "의 공격을 받았다.");
+		System.out.println(name + "의 드래곤다이브!\n" + target.getName() + "은(는) " + attackPower + "의 공격을 받았다.");
 	}
 	
 	//다른 캐릭터로부터 공격 받았을 때 메서드
@@ -90,6 +82,4 @@ public class PlayerCharacter {
 		System.out.println("공격 받았습니다.");
 	}
 	
-	
-
 }

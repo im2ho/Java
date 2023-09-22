@@ -8,7 +8,8 @@ public class LottoRun {
 		
 		//실행용 메소드로 기본 생성자를 통해 Lotto 객체 생성 후 information()로 정보 출력
 	
-				Lotto number = new Lotto(null);//?
+				Lotto number = new Lotto();
+				//Lotto number = new Lotto(null);
 				number.information();
 
 	}

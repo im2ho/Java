@@ -1,15 +1,18 @@
 package com.kh.testBA.before;
 
-import org.junit.Before;
-import org.junit.After;
+import static org.junit.Assert.assertEquals;
+
+//import org.junit.Before;
+//import org.junit.After;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+
 
 public class CalculatorTest {
 	
-	private Calculator cal;
+	private Calculator cal = new Calculator();
 	
+	/*
 	@Before
 	public void setUp() {
 		// 각 테스트 메서드 실행 전에 수행할 작업 정의
@@ -22,16 +25,18 @@ public class CalculatorTest {
 		// 각 테스트 메서드 실행 후 수행할 작업을 정의
 		System.out.println("테스트 종료");
 	}
+	*/
+	
 	
 	@Test
 	public void testAddition() {
 		int result = cal.add(3, 4);
-		assertEquals(7, result);
+		assertEquals(8, result);
 	}
 	
 	@Test
 	public void testSub() {
 		int result = cal.subtract(10, 5);
-		assertEquals(5, result);
+		assertEquals(4, result);
 	}
 }
